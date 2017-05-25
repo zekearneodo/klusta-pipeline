@@ -70,7 +70,7 @@ def main():
         chans = chans.intersection(d2['chans'])
     chans = list(chans)
 
-    for i,m in zip(info['exports'],mat_data):
+    for i,m in zip(info['exports'], mat_data):
         i['chans'] = chans
 
     port_map = port_site[args.rig]
