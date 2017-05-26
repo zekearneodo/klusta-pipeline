@@ -13,10 +13,10 @@ def get_args():
                         help='destination directory for chanMap.mat file')
     parser.add_argument('local_sort_dir', default='./', nargs='?',
                         help='local data directory on sorting computer')
-    parser.add_argument('--kilodir', default='/home/mthielk/github/KiloSort',
+    parser.add_argument('--kilodir', default='/home/earneodo/github/KiloSort',
                         dest='kilodir', type=str,
                         help='path to kilosort folder')
-    parser.add_argument('--npy_matdir', default='/home/mthielk/github/npy-matlab',
+    parser.add_argument('--npy_matdir', default='/home/earneodo/github/npy-matlab',
                         dest='npy_matdir', type=str,
                         help='path to npy-matlab scripts')
     parser.add_argument('-s', '--sampling_rate', dest='fs', type=float, default=None,
